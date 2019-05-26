@@ -1,0 +1,5 @@
+= Guarddutybeat Docs
+
+Welcome to the Guarddutybeat documentation.
+
+
