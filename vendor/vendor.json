@@ -1,0 +1,26 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "fNpSo10M9k/XSj/fNWJRs0py4vA=",
+			"path": "github.com/aws/aws-lambda-go/events",
+			"revision": "08d251dc58f204411d79012fd6f1beefb7107fea",
+			"revisionTime": "2019-03-15T19:29:05Z"
+		},
+		{
+			"checksumSHA1": "j6/9TIjKv9a6PLRRw2arO1lcK4Q=",
+			"path": "github.com/aws/aws-sdk-go",
+			"revision": "58870b661fd8038fe9b7f20b394441e35a369325",
+			"revisionTime": "2019-05-01T18:19:34Z",
+			"tree": true
+		},
+		{
+			"checksumSHA1": "4PINIDB/Vd357g91+a3RONh2vRk=",
+			"path": "github.com/mitchellh/mapstructure",
+			"revision": "3536a929edddb9a5b34bd6861dc4a9647cb459fe",
+			"revisionTime": "2018-10-05T04:51:35Z"
+		}
+	],
+	"rootPath": "github.com/forter/guarddutybeat"
+}
