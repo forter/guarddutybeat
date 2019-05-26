@@ -139,9 +139,9 @@ func (bt *Guarddutybeat) Run(b *beat.Beat) error {
 				Fields:    result,
 			}
 			toSend = append(toSend, event)
-			bt.client.Publish(event)
 			bt.logger.Info("Event sent")
 		}
+			bt.client.PublishAll(toSend)
 	}
 }
 
